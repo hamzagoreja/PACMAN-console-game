@@ -160,6 +160,7 @@ This project is a **console-based Pacman game** developed in **Java using Object
 
   
   ```
+## Architecture Design 
 <img width="829" height="616" alt="image" src="https://github.com/user-attachments/assets/b8c56a7f-4729-4d3c-8354-2495f65a327d" />
 
 ## Game Flow
