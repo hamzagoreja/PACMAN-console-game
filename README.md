@@ -94,11 +94,6 @@ This project is a **console-based Pacman game** developed in **Java using Object
       y = r.nextInt(10);
   } while(board.isWall(x, y));
   ```
-* **Abstraction**
-
-  * Handles its own spawning logic
-
----
 
 ### 4. **gameboard Class**
 
@@ -162,23 +157,15 @@ This project is a **console-based Pacman game** developed in **Java using Object
 
   ```java
   Scanner sc = new Scanner(System.in);
-  ```
 
+  
+  ```
+<img width="829" height="616" alt="image" src="https://github.com/user-attachments/assets/b8c56a7f-4729-4d3c-8354-2495f65a327d" />
 
 ## Game Flow
 
-1. Game initializes objects (Pacman, Ghost, Food, Board)
-2. Game loop starts (`while(lives > 0)`)
-3. Board is displayed
-4. User inputs movement
-5. Pacman moves (validated against walls)
-6. Ghost moves randomly
-7. Collision checks:
-
-   * Pacman eats food → score increases
-   * Pacman meets ghost → life decreases
-8. Game ends when lives = 0
-
+<img width="801" height="554" alt="image" src="https://github.com/user-attachments/assets/cfde5c5e-29bc-411c-8854-bc7027ef0c67" />
+ 
 ---
 
 ## Challenges Faced
